@@ -56,38 +56,40 @@ ul,ol{
 
 /* banner css part start */
  .banner{
-     padding-top: 130px;
+     padding-top: 30px;
+     padding-bottom: 30px;
      
     }
 
 .half-width{
-    width: 60%;
+    width: 50%;
     padding-left: 15%;
     display: flex;
    
 
 }
 .half-width img{
-    width:130%;
+    width:200%;
 
 }
 .color{
-     color: rgb(149, 171, 238);
+     color: rgb(14, 65, 218);
  }
+ 
 .banner_text h1{
  
-    color: black;
+    color: #444444;
     font-size: 45px;
     font-weight: 800;
     font-family: 'Roboto Condensed', sans-serif;
  }
  .banner_text p{
-    color: black;
+    color: #444444;
     font-size: 15px;
     font-weight: 400;
     font-family: 'Roboto Condensed', sans-serif;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
  
 }
 
@@ -96,18 +98,23 @@ ul,ol{
     text-decoration: none;
     background-image: linear-gradient(rgb(145, 222, 240),rgb(30, 0, 255));
     padding: 10px 30px;
-    border-radius: 15px;
+    border-radius: 25px solid blue;
     color: floralwhite;
     font-weight:700;
     font-family: 'Roboto Condensed', sans-serif;
+    animation: mymove 2s infinite;
    
  }
+ @keyframes mymove {
+    50% {border-radius: 150px;}
+  }
     /* banner css part end */
  
 
     /* about css part start */
     .about_me{
-        padding-top: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         background-image: url(../images/shapes/Frame\ 56.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -117,21 +124,25 @@ ul,ol{
     .about_text{
         padding-left: 250px;
         text-align:center;
+        
     }
     .about_text h1{
  
-        color: black;
-        font-size: 55px;
+        color: #444444;
+        font-size: 40px;
         font-weight: 800;
         font-family: 'Roboto Condensed', sans-serif;
+     
+        padding-top: 40px;
      }
      .about_text p{
-        color: black;
+        color: #444444;
         font-size: 15px;
         font-weight: 400;
         font-family: 'Roboto Condensed', sans-serif;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
+        
 
      
     }
@@ -214,11 +225,11 @@ ul,ol{
         color: #444444;
       
 }
-..footer_text p{
+.footer_text p{
     font-size: 14px;
     font-weight: 400;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #666666;
+    color: #2d2c2c;
     text-transform: uppercase;
     padding-bottom: 80px;
   
